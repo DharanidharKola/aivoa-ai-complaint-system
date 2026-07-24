@@ -1,0 +1,51 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+
+    messages: [
+
+        {
+
+            sender: "AI",
+
+            text: "Hello! Upload a complaint or type it below."
+
+        }
+
+    ]
+
+};
+
+const chatSlice = createSlice({
+
+    name: "chat",
+
+    initialState,
+
+    reducers: {
+
+        addMessage(state, action) {
+
+            state.messages.push(action.payload);
+
+        },
+
+        clearMessages(state) {
+
+            state.messages = [];
+
+        }
+
+    }
+
+});
+
+export const {
+
+    addMessage,
+
+    clearMessages
+
+} = chatSlice.actions;
+
+export default chatSlice.reducer;

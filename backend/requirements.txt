@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-dotenv
+python-multipart
+pydantic
+groq
+langgraph
+langchain
+langchain-core
+langchain-community
+pypdf
+email-validator
+python-magic
+pydantic-settings
