@@ -1,6 +1,6 @@
 # 🧪 AIVOA AI Complaint Management System
 
-An AI-powered Pharmaceutical Customer Complaint Management System that automates complaint analysis using **FastAPI, React, LangGraph, Google Gemini, and PostgreSQL**.
+An AI-powered Pharmaceutical Customer Complaint Management System that automates complaint analysis using **FastAPI, React, LangGraph, Groq API, and PostgreSQL**.
 
 The system extracts complaint information from uploaded documents, classifies complaint risk, generates structured summaries, recommends CAPA actions, estimates AI confidence, and stores complaint records in PostgreSQL for Quality Assurance workflows.
 
@@ -372,5 +372,5 @@ This project was developed as part of an AI engineering assignment for education
 - React
 - Material UI
 - LangGraph
-- Google Gemini
+- Groq API
 - PostgreSQL
